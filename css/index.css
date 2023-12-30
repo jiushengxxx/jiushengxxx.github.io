@@ -1,0 +1,295 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+.focus {
+    float: left;
+    width: 721px;
+    height: 455px;
+}
+
+.newsflash {
+    border: 1px solid #e4e4e4;
+    float: left;
+    width: 250px;
+    height: 455px;
+    margin-left: 9px;
+
+}
+
+.news {
+    height: 165px;
+    border: 1px solid #e4e4e4;
+
+}
+
+.lifeservice {
+    height: 209px;
+    border-top: 0;
+
+}
+
+.lifeservice ul {
+    width: 252px;
+}
+
+.lifeservice ul li {
+    float: left;
+    width: 63px;
+    height: 71px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+
+.lifeservice ul li i {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-color: black;
+    margin-top: 12px;
+    background: url(../images/icons.png) no-repeat -16px -16px;
+}
+
+.bargin {
+    margin-top: 5px;
+}
+
+.news-hd {
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+    padding: 0 15px;
+}
+
+.news-hd h5 {
+
+    float: left;
+    font-size: 14px;
+}
+
+.news-hd .more {
+    float: right;
+}
+
+.news-hd .more::after {
+    padding-left: 5px;
+    font-family: 'icomoon';
+    content: '\e920';
+}
+
+.news-bd ul li {
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.news-bd {
+    padding: 5px 15px 0;
+}
+
+.recom {
+    margin-top: 12px;
+    height: 163px;
+    background-color: #ddd;
+}
+
+.recom_hd {
+    float: left;
+    height: 163px;
+    width: 205px;
+    background-color: #5c5251;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.recom_bd {
+    float: left;
+}
+
+.recom_bd ul li {
+    position: relative;
+    float: left;
+}
+
+.recom_bd ul li img {
+    width: 248px;
+    height: 163px;
+}
+
+.recom_bd ul li:nth-child(-n+3)::after {
+
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 1px;
+    height: 145px;
+    background-color: #ddd;
+}
+
+.like {
+    height: 293px;
+}
+
+.like_hd {
+
+    height: 28px;
+}
+
+.like_hd h4 {
+    float: left;
+    height: 21px;
+    line-height: 21px;
+    font-size: 18px;
+}
+
+.like_hd h5 {
+    font-size: 12px;
+    height: 21px;
+    line-height: 21px;
+    float: right;
+    margin-right: 8px;
+}
+
+.like_hd h5::after {
+    margin-left: 5px;
+    font-family: 'icomoon';
+    content: '\e93a';
+}
+
+.like_bd {
+    border: 1px solid #5c5251;
+    height: 260px;
+    width: 1220px;
+}
+
+
+.like_bd ul li {
+    float: left;
+    text-align: center;
+    width: 203px;
+    height: 233px;
+}
+
+.like_bd ul li p {
+    margin-top: 9px;
+    margin-left: 36px;
+    margin-right: 46px;
+    font-size: 12px;
+
+}
+
+.like_bd ul li h1 {
+    float: left;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    color: #df3033;
+}
+
+.like_bd ul li img {
+    height: 160px;
+    width: 141px;
+    margin-top: 14px;
+    margin-left: 20px;
+}
+
+.like_bd ul li i {
+    width: 1px;
+    height: 62px;
+    background-color: black;
+    margin-left: 10px;
+}
+
+/* 家用电器模块 */
+.box_hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+
+.box_hd h3 {
+    float: left;
+    font-style: 18px;
+    color: #c81623;
+    font-weight: 400;
+}
+
+.tab_list {
+    line-height: 30px;
+    float: right;
+}
+
+.box_hd ul li {
+    float: left;
+}
+
+.box_hd ul li a {
+    margin: 0 15px;
+}
+
+.floor .w {
+    margin-top: 30px;
+}
+
+.box_bd {
+    height: 361px;
+    background-color: pink;
+}
+
+.tab_list_item>div {
+    float: left;
+
+
+}
+
+.col_210 {
+    height: 361px;
+    width: 210px;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.col_210 ul {
+    padding-left: 12px;
+}
+
+.col_210 ul li {
+    margin-right: 10px;
+    float: left;
+    width: 85px;
+    height: 34px;
+    border-bottom: 1px solid #ccc;
+    line-height: 33px;
+
+}
+
+.col_210 h3 {
+    padding-top: 126px;
+    color: #c81623;
+}
+
+.col_210 h4 {
+
+    color: #c81623;
+}
+
+.col_329 {
+    width: 329px;
+}
+
+.col_221 {
+    border-right: 1px solid #ccc;
+    width: 221px;
+}
+
+.col_219 {
+    border-right: 1px solid #ccc;
+    width: 219px;
+}
